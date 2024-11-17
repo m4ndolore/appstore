@@ -15,7 +15,7 @@ body {
 /* Hero Section */
 .hero-section {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-                url('assets\images\swarm-drones.jpg') no-repeat center center/cover;
+                url('../assets/images/swarm-drones.jpg') no-repeat center center/cover;
     color: white;
     height: 100vh;
     display: flex;
@@ -26,21 +26,21 @@ body {
 }
 
 .hero-section h1 {
-    font-size: 3rem;
+    font-size: 5rem;
     font-weight: 700;
     margin-bottom: 1rem;
 }
 
 .hero-section p {
-    font-size: 1.2rem;
-    max-width: 600px;
+    font-size: 3rem;
+    max-width: 900px;
     margin: 0 auto;
 }
 
 /* Content Section */
 .content-section {
     padding: 4rem 2rem;
-    max-width: 800px;
+    max-width: 1100px;
     margin: 0 auto;
     text-align: center;
     opacity: 0;
@@ -54,13 +54,13 @@ body {
 }
 
 .content-section h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 1rem;
     color: #222;
 }
 
 .content-section p {
-    font-size: 1.1rem;
+    font-size: 2rem;
     margin-bottom: 1.5rem;
 }
 
