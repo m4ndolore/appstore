@@ -1,0 +1,80 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #e8e8e8; /* Soft beige background */
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                url('../assets/images/swarm-drones.jpg') no-repeat center center/cover;
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+.hero-section h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.hero-section p {
+    font-size: 3rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Content Section */
+.content-section {
+    padding: 4rem 2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.content-section.reveal-active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.content-section h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #222;
+}
+
+.content-section p {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.content-section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1.5rem;
+}
+
+/* Footer */
+footer {
+    background-color: #0a1128; /* Deep navy for footer background */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
