@@ -90,7 +90,8 @@ Home Slider
     }
 
     .swiper-image-three {
-    /* background-image: url(https://www.kdcresource.com/media/quac1xum/swarm-drones.jpg); */
+      /* background-image: url(../assets/images/const.jpg); */
+
     }
 
     .swiper-image-four {
@@ -131,7 +132,7 @@ Home Slider
   padding: 0;
   /* background: url(../assets/images/swarm-drones.jpg); */
 
-  /* background-color: hsla(0, 0%, 0%, 0.5); */
+  background-color: hsla(0, 0%, 0%, 0.5);
   background-blend-mode: multiply;
 }
 
